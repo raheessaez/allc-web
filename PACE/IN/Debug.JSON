@@ -1,0 +1,1 @@
+{"data":[[{"FATHER":"Debug","NAME":" UseMemoryDebug","ID":" 1","TYPE":" BOOLEAN","VALUE":" 0"},{"FATHER":"Debug","NAME":" MemoryThreshold","ID":" 2","TYPE":" UINT","VALUE":" 100"},{"FATHER":"Debug","NAME":" WriteTLog","ID":" 3","TYPE":" BOOLEAN","VALUE":" 0"},{"FATHER":"Debug","NAME":" WriteSJ","ID":" 4","TYPE":" BOOLEAN","VALUE":" 0"}]]}

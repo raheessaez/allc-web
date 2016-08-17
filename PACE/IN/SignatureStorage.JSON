@@ -1,0 +1,1 @@
+{"data":[[{"FATHER":"SignatureStorage","NAME":" WriteToTLog","ID":" 1","TYPE":" BOOLEAN","VALUE":" 0"},{"FATHER":"SignatureStorage","NAME":" WriteToSignatureFile","ID":" 2","TYPE":" BOOLEAN","VALUE":" 0"},{"FATHER":"SignatureStorage","NAME":" ReplaceSignatureFile","ID":" 3","TYPE":" BOOLEAN","VALUE":" 0"}]]}

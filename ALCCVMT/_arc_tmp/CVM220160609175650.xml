@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='windows-1252' ?>
+<ventas>
+<datosRegistrador>
+<numeroRUC>0990004196001</numeroRUC>
+</datosRegistrador>
+<datosVentas>
+<venta>
+<rucComercializador>0990004196001</rucComercializador>
+<CAMVCpn></CAMVCpn>
+<serialVin></serialVin>
+<nombrePropietario>ALVARADO MALDONADO MARIO EDGAR</nombrePropietario>
+<tipoIdentificacionPropietario>C</tipoIdentificacionPropietario>
+<numeroDocumentoPropietario>0100120088</numeroDocumentoPropietario>
+<tipoComprobante>1</tipoComprobante>
+<establecimientoComprobante></establecimientoComprobante>
+<puntoEmisionComprobante>0101</puntoEmisionComprobante>
+<numeroComprobante>773355</numeroComprobante>
+<numeroAutorizacion>ELECTRONIC</numeroAutorizacion>
+<fechaVenta>10-11-2015</fechaVenta>
+<precioVenta>24.31</precioVenta>
+<codigoCantonMatriculacion></codigoCantonMatriculacion>
+<datosDireccion>
+<tipo>RESIDENCIA</tipo>
+<calle>MEDARDO ANGEL SILVA 230 Y JOSE DE LA CUADRA (Alausi)</calle>
+<numero></numero>
+<interseccion></interseccion>
+</datosDireccion>
+<datosTelefono>
+<provincia>0</provincia>
+<numero>952540498</numero>
+</datosTelefono>
+</venta>
+</datosVentas>
+</ventas>

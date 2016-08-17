@@ -1,0 +1,14 @@
+<Transaction TrainingModeFlag="false" OfflineFlag="false" CancelFlag="false" VoidedFlag="false">
+  <OperatorID>27</OperatorID>
+  <WorkstationID>0102</WorkstationID>
+  <RetailStoreID>100</RetailStoreID>
+  <BusinessDayDate>2016-06-09</BusinessDayDate>
+  <SequenceNumber>22</SequenceNumber>
+  <BeginDateTime>2016-06-09T11:07:58</BeginDateTime>
+  <EndDateTime>2016-06-09T11:08:00</EndDateTime>
+  <ControlTransaction>
+    <SignOff>
+      <quantityOfTransactions>20</quantityOfTransactions>
+    </SignOff>
+  </ControlTransaction>
+</Transaction>

@@ -1,0 +1,120 @@
+<Transaction TrainingModeFlag="false" OfflineFlag="false" CancelFlag="false" VoidedFlag="false">
+  <OperatorID>27</OperatorID>
+  <WorkstationID>0102</WorkstationID>
+  <RetailStoreID>100</RetailStoreID>
+  <BusinessDayDate>2016-06-09</BusinessDayDate>
+  <SequenceNumber>28</SequenceNumber>
+  <BeginDateTime>2016-06-09T11:33:55</BeginDateTime>
+  <EndDateTime>2016-06-09T11:34:00</EndDateTime>
+  <RetailTransaction>
+    <RingElapsedTime>2</RingElapsedTime>
+    <TenderElapsedTime>3</TenderElapsedTime>
+    <IdleElapsedTime>33</IdleElapsedTime>
+    <ItemCount>1.0</ItemCount>
+    <LineItemsScannedCount>0.0</LineItemsScannedCount>
+    <lineItemsScannedPercent>0.0</lineItemsScannedPercent>
+    <LineItemsKeyedCount>1.0</LineItemsKeyedCount>
+    <lineItemsKeyedPercent>0.0</lineItemsKeyedPercent>
+    <keyDepartmentCount>0.0</keyDepartmentCount>
+    <keyDepartmentPercent>0.0</keyDepartmentPercent>
+    <IncludeTax>true</IncludeTax>
+    <LineItem VoidFlag="false">
+      <SequenceNumber>1</SequenceNumber>
+      <Sale>
+        <sequenceNumber>1</sequenceNumber>
+        <ItemCode>4210</ItemCode>
+        <ItemType>0</ItemType>
+        <Quantity>1.0</Quantity>
+        <units>0.0</units>
+        <RegularSalesUnitPrice>0.0</RegularSalesUnitPrice>
+        <ActualSalesUnitPrice>0.0</ActualSalesUnitPrice>
+        <ExtendedAmount>77.0</ExtendedAmount>
+        <unitDiscountAmount>0.0</unitDiscountAmount>
+        <extendedDiscountAmount>0.0</extendedDiscountAmount>
+        <EntryMethodCode>KEYED</EntryMethodCode>
+        <TaxType>D</TaxType>
+        <POSDepartment>111</POSDepartment>
+        <MerchandiseHierarchyGroup>110000</MerchandiseHierarchyGroup>
+        <PriceEntered>0</PriceEntered>
+        <appliedTax>0.11</appliedTax>
+      </Sale>
+    </LineItem>
+    <LineItem VoidFlag="false">
+      <SequenceNumber>2</SequenceNumber>
+      <Tender TenderType="11">
+        <TenderAccountNumber></TenderAccountNumber>
+        <ForeignCurrencyAmount>0.0</ForeignCurrencyAmount>
+        <Amount>88.0</Amount>
+        <FeeAmount>0.0</FeeAmount>
+        <Status>0</Status>
+        <ExchangeRate>0.0</ExchangeRate>
+        <amountAppliedToTransaction>0.0</amountAppliedToTransaction>
+      </Tender>
+    </LineItem>
+    <LineItem TypeCode="1">
+      <SequenceNumber>3</SequenceNumber>
+      <Tax TaxType="A">
+        <taxablePercent>0.0</taxablePercent>
+        <TaxableAmount>77.0</TaxableAmount>
+        <Amount>11.0</Amount>
+        <taxPercent>0.0</taxPercent>
+      </Tax>
+    </LineItem>
+    <Totals>
+      <Total TotalType="TransactionTaxAmount" CancelFlag="false">
+        <Amount>11.0</Amount>
+      </Total>
+      <Total TotalType="TransactionGrossPositiveAmount" CancelFlag="false">
+        <Amount>88.0</Amount>
+      </Total>
+      <Total TotalType="TransactionGrossNegativeAmount" CancelFlag="false">
+        <Amount>0.0</Amount>
+      </Total>
+    </Totals>
+    <InvoiceData>
+      <CustomerID>0990004196001</CustomerID>
+      <customerType>2</customerType>
+      <CustomerName>CORPORACION EL ROSADO S.A.</CustomerName>
+      <Address>Eliy alfaro con francisco de marco</Address>
+      <Telephone>12345678</Telephone>
+    </InvoiceData>
+    <FacturaElec>
+      <Fecha>160609</Fecha>
+      <Hora>113456</Hora>
+      <NumeroDoc>000000815</NumeroDoc>
+      <TipoDoc>01</TipoDoc>
+      <Estado>0</Estado>
+      <NumeroFac>001-102-000000815</NumeroFac>
+    </FacturaElec>
+    <StringUsuariosDataList>
+      <StringUsuario>
+        <SequenceNumber>1</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;27&apos;|&apos;102&apos;|&apos;0990004196001&apos;|&apos;2&apos;|&apos;CORPORACION EL ROSADO S.A.&apos;|&apos;Eliy alfaro con francisco de marco&apos;|&apos;12345678&apos;|&apos;0&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>2</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;01&apos;|&apos;1&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>3</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;41&apos;|&apos;102&apos;|&apos;28&apos;|&apos;0906201611&apos;|&apos;4210&apos;|&apos;88&apos;|&apos;.110000&apos;|&apos;88&apos;|&apos;0&apos;|&apos;0&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>4</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;07&apos;|&apos;11&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>5</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;23&apos;|&apos;090616&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>6</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;20&apos;|&apos;160609&apos;|&apos;113456&apos;|&apos;000000815&apos;|&apos;01&apos;|&apos;0&apos;|&apos;001-102-000000815&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>7</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;27&apos;|&apos;102&apos;|&apos;0990004196001&apos;|&apos;2&apos;|&apos;CORPORACION EL ROSADO S.A.&apos;|&apos;Eliy alfaro con francisco de marco&apos;|&apos;12345678&apos;|&apos;1&apos;|&apos;</Cadena>
+      </StringUsuario>
+    </StringUsuariosDataList>
+  </RetailTransaction>
+</Transaction>

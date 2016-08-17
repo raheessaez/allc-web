@@ -1,0 +1,24 @@
+<Transaction TrainingModeFlag="false" OfflineFlag="false" CancelFlag="false" VoidedFlag="false">
+  <OperatorID>27</OperatorID>
+  <WorkstationID>0102</WorkstationID>
+  <RetailStoreID>100</RetailStoreID>
+  <BusinessDayDate>2016-06-09</BusinessDayDate>
+  <SequenceNumber>16</SequenceNumber>
+  <BeginDateTime>2016-06-09T10:35:40</BeginDateTime>
+  <EndDateTime>2016-06-09T10:36:00</EndDateTime>
+  <TenderControlTransaction TenderControlTypeCode="1">
+    <TenderPickup>
+      <Outbound>0102</Outbound>
+      <Inbound>100</Inbound>
+      <OperatorCode>27</OperatorCode>
+    </TenderPickup>
+    <TenderControlTransactionTenderLineItem>
+      <SequenceNumber>1</SequenceNumber>
+      <TenderTypeCode>11</TenderTypeCode>
+      <exchangeRate>0.0</exchangeRate>
+      <Amount>40800.0</Amount>
+      <foreignCurrencyAmount>0.0</foreignCurrencyAmount>
+      <Count>0.0</Count>
+    </TenderControlTransactionTenderLineItem>
+  </TenderControlTransaction>
+</Transaction>

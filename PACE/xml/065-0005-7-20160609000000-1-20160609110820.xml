@@ -1,0 +1,107 @@
+<Transaction TrainingModeFlag="false" OfflineFlag="false" CancelFlag="false" VoidedFlag="false">
+  <OperatorID>0952317048</OperatorID>
+  <WorkstationID>0005</WorkstationID>
+  <RetailStoreID>065</RetailStoreID>
+  <businessDayDate>2016-06-09 00:00:00.0 COT</businessDayDate>
+  <BusinessDayDate>2016-06-09</BusinessDayDate>
+  <SequenceNumber>7</SequenceNumber>
+  <BeginDateTime>2016-06-09T11:53:26</BeginDateTime>
+  <EndDateTime>2016-06-09T11:54:00</EndDateTime>
+  <RetailTransaction>
+    <RingElapsedTime>19</RingElapsedTime>
+    <TenderElapsedTime>15</TenderElapsedTime>
+    <IdleElapsedTime>308</IdleElapsedTime>
+    <LockElapsedTime>413</LockElapsedTime>
+    <ItemCount>1.0</ItemCount>
+    <LineItemsScannedCount>0.0</LineItemsScannedCount>
+    <lineItemsScannedPercent>0.0</lineItemsScannedPercent>
+    <LineItemsKeyedCount>1.0</LineItemsKeyedCount>
+    <lineItemsKeyedPercent>0.0</lineItemsKeyedPercent>
+    <keyDepartmentCount>0.0</keyDepartmentCount>
+    <keyDepartmentPercent>0.0</keyDepartmentPercent>
+    <IncludeTax>true</IncludeTax>
+    <LineItem VoidFlag="false">
+      <SequenceNumber>1</SequenceNumber>
+      <Sale>
+        <sequenceNumber>1</sequenceNumber>
+        <ItemCode>4284</ItemCode>
+        <ItemType>0</ItemType>
+        <Quantity>1.0</Quantity>
+        <units>0.0</units>
+        <RegularSalesUnitPrice>0.0</RegularSalesUnitPrice>
+        <ActualSalesUnitPrice>0.0</ActualSalesUnitPrice>
+        <ExtendedAmount>44.0</ExtendedAmount>
+        <unitDiscountAmount>0.0</unitDiscountAmount>
+        <extendedDiscountAmount>0.0</extendedDiscountAmount>
+        <EntryMethodCode>KEYED</EntryMethodCode>
+        <TaxType>D</TaxType>
+        <POSDepartment>111</POSDepartment>
+        <MerchandiseHierarchyGroup>900000</MerchandiseHierarchyGroup>
+        <PriceEntered>0</PriceEntered>
+        <appliedTax>0.05</appliedTax>
+      </Sale>
+    </LineItem>
+    <LineItem VoidFlag="false">
+      <SequenceNumber>2</SequenceNumber>
+      <Tender TenderType="11">
+        <TenderAccountNumber></TenderAccountNumber>
+        <ForeignCurrencyAmount>0.0</ForeignCurrencyAmount>
+        <Amount>100.0</Amount>
+        <FeeAmount>0.0</FeeAmount>
+        <Status>0</Status>
+        <ExchangeRate>0.0</ExchangeRate>
+        <amountAppliedToTransaction>0.0</amountAppliedToTransaction>
+      </Tender>
+    </LineItem>
+    <LineItem TypeCode="1">
+      <SequenceNumber>4</SequenceNumber>
+      <Tax TaxType="A">
+        <taxablePercent>0.0</taxablePercent>
+        <TaxableAmount>44.0</TaxableAmount>
+        <Amount>5.0</Amount>
+        <taxPercent>0.0</taxPercent>
+      </Tax>
+    </LineItem>
+    <Totals>
+      <Total TotalType="TransactionTaxAmount" CancelFlag="false">
+        <Amount>5.0</Amount>
+      </Total>
+      <Total TotalType="TransactionGrossPositiveAmount" CancelFlag="false">
+        <Amount>49.0</Amount>
+      </Total>
+      <Total TotalType="TransactionGrossNegativeAmount" CancelFlag="false">
+        <Amount>0.0</Amount>
+      </Total>
+    </Totals>
+    <FacturaElec>
+      <Fecha>160609</Fecha>
+      <Hora>115454</Hora>
+      <NumeroDoc>000001056</NumeroDoc>
+      <TipoDoc>01</TipoDoc>
+      <Estado>0</Estado>
+      <NumeroFac>001-005-000001056</NumeroFac>
+    </FacturaElec>
+    <StringUsuariosDataList>
+      <StringUsuario>
+        <SequenceNumber>1</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;01&apos;|&apos;1&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>2</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;41&apos;|&apos;5&apos;|&apos;7&apos;|&apos;0906201611&apos;|&apos;4284&apos;|&apos;49&apos;|&apos;.050000&apos;|&apos;49&apos;|&apos;0&apos;|&apos;0&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>3</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;07&apos;|&apos;5&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>4</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;23&apos;|&apos;090616&apos;|&apos;</Cadena>
+      </StringUsuario>
+      <StringUsuario>
+        <SequenceNumber>5</SequenceNumber>
+        <Cadena>99&apos;|&apos;06&apos;|&apos;20&apos;|&apos;160609&apos;|&apos;115454&apos;|&apos;000001056&apos;|&apos;01&apos;|&apos;0&apos;|&apos;001-005-000001056&apos;|&apos;</Cadena>
+      </StringUsuario>
+    </StringUsuariosDataList>
+  </RetailTransaction>
+</Transaction>

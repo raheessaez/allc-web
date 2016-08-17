@@ -1,0 +1,577 @@
+HTML {
+	overflow:hidden
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Open Sans', sans-serif;
+	color:#4F4F4F;
+	background-color:#F1F1F1;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+	background-image:url(../images/BackgroundARMS01.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: top left;
+}
+#acceso{
+	width: 309px;
+	height: 356px;
+	position: absolute;
+	left: 50%;
+	top:30px;
+	margin-left: -154px
+}
+#acceso-form{
+	position:relative;
+}
+#acceso-top{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	width:309px;
+	height:150px;
+	background-image:url(../images/acceso_top.png);
+	background-repeat:no-repeat;
+	background-position:left top
+}
+#acceso-user{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	width:309px;
+	height:66px;
+	background-image:url(../images/acceso_user.png);
+	background-repeat:no-repeat;
+	background-position:left top
+}
+#acceso-user input[type='text'] {
+	position: relative;
+	font-size:14pt;
+	color:#666;
+	font-family:'Open Sans', sans-serif;
+	background: transparent;
+	border: none;
+	padding: 6px;
+	width:179px;
+	height:36px;
+	margin:0;
+	left: 79px;
+	top:22px
+} 
+#acceso-user input:focus {
+	outline: none !important
+}
+#acceso-pass{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	width:309px;
+	height:63px;
+	background-image:url(../images/acceso_pass.png);
+	background-repeat:no-repeat;
+	background-position:left top
+}
+#acceso-pass input[type='password'] {
+	position: relative;
+	font-size:14pt;
+	color:#666;
+	font-family:'Open Sans', sans-serif;
+	background: transparent;
+	border: none;
+	padding: 6px;
+	width:179px;
+	height:36px;
+	margin:0;
+	left: 79px;
+	top:9px
+} 
+#acceso-pass input:focus {
+	outline: none !important
+}
+#acceso-login{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	width:309px;
+	height:70px;
+	background-image:url(../images/acceso_bottom.png);
+	background-repeat:no-repeat;
+	background-position:left top
+}
+#acceso-login input[type='submit'] {
+	position:relative;
+	display:block;
+	float:none;
+	top: 10px;
+	left: 29px;
+	padding: 6px ;
+	margin: 0;
+	width: 248px;
+	height: 46px;
+	border:none;
+	font-family:'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:600;
+	color: #FFF;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+	vertical-align:middle;
+	text-align:center;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border:1px solid #660000;
+	background-color: #660000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#CC0000), to(#990000));
+	background-image: -webkit-linear-gradient(top, #CC0000, #990000);
+	background-image: -moz-linear-gradient(top, #CC0000, #990000);
+	background-image: -ms-linear-gradient(top, #CC0000, #990000);
+	background-image: -o-linear-gradient(top, #CC0000, #990000);
+	background-image: linear-gradient(to bottom, #CC0000, #990000);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CC0000, endColorstr=#990000);
+	-moz-box-shadow: 0 1px 2px #666;
+	-webkit-box-shadow: 0 1px 2px #666;
+	box-shadow: 0 1px 2px #666;
+}
+#acceso-login input[type='submit']:hover  {
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
+	padding-bottom:10px;
+	-webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#acceso-login input:focus {
+	outline: none !important
+}
+#acceso-bottom{
+position:relative;
+display:block;
+margin:0;
+padding:0;
+width:309px;
+height:115px;
+background-image:url(../images/acceso_bottom_msjeLogos.png);
+background-repeat:no-repeat;
+background-position:left top;
+z-index:99;
+}
+#acceso-bottomNOK{
+position:relative;
+display:block;
+margin:0;
+padding:0;
+width:309px;
+height:115px;
+background-image:url(../images/acceso_bottom_msjeWarn.png);
+background-repeat:no-repeat;
+background-position:left top;
+z-index:99;
+}
+#acceso-bottomSPS{
+position:relative;
+display:block;
+margin:0;
+padding:0;
+width:309px;
+height:115px;
+background-image:url(../images/acceso_bottom_msjeSPS.png);
+background-repeat:no-repeat;
+background-position:left top;
+z-index:99;
+}
+#accesomenu-top{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	width:309px;
+	height:150px;
+	background-image:url(../images/accesomenu_top.png);
+	background-repeat:no-repeat;
+	background-position:left top
+}
+#accesomenu-bottom{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0;
+	width:309px;
+	height:59px;
+	background-image:url(../images/acceso_bottom_msje_ms.png);
+	background-repeat:no-repeat;
+	background-position:left top
+}
+#accesomenu-bottom a.CerrarSesion  {
+	float: left;
+	display:inline-block;
+	color:#FFF;
+	font-weight:600;
+	font-family:'Open Sans', sans-serif;
+	font-size:10pt;
+	text-decoration:none;
+	margin: 10px 0 0 30px;
+	padding:4px 5px 6px 5px;
+	-khtml-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	border:1px solid #BE3121;
+	background-color: #DD4B39;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#DD4B39), to(#BE3121));
+	background-image: -webkit-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: -moz-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: -ms-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: -o-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: linear-gradient(to bottom, #DD4B39, #BE3121);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#DD4B39, endColorstr=#BE3121);
+	-moz-box-shadow: 0 1px 2px #C1C1C1;
+	-webkit-box-shadow: 0 1px 2px #C1C1C1;
+	box-shadow: 0 1px 2px #C1C1C1;
+	opacity: 0.60;
+}
+#accesomenu-bottom a.CerrarSesion:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#DD4B39), to(#9F281C));
+	background-image: -webkit-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: -moz-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: -ms-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: -o-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: linear-gradient(to bottom, #DD4B39, #9F281C);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#DD4B39, endColorstr=#9F281C);
+	opacity: 1;
+}
+#acceso-central{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:0 0 6px 0;
+	width:309px;
+	height:auto;
+	min-height: 120px;
+	background-image:url(../images/acceso_central.png);
+	background-repeat:repeat-y;
+	background-position:left top
+}
+#acceso-central input[type='button'] {
+	position:relative;
+	display:block;
+	float:none;
+	top: 0;
+	left: 29px;
+	padding: 0 0 6px 20px ;
+	margin: 0 0 4px 0;
+	width: 248px;
+	height: 46px;
+	border:none;
+	font-family:'Open Sans', sans-serif;
+	font-size:11pt;
+	font-weight:600;
+	color: #666;
+	vertical-align:middle;
+	text-align:left;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+
+	border:1px solid #CCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#DBDCDF));
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: -moz-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: -ms-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: -o-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: linear-gradient(to bottom, #FFFFFF, #DBDCDF);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#DBDCDF);
+
+	-moz-box-shadow: 0 1px 2px #666;
+	-webkit-box-shadow: 0 1px 2px #666;
+	box-shadow: 0 1px 2px #666;
+}
+#acceso-central input[type='button']:hover  {
+	color: #FFF;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+	border:1px solid #660000;
+	background-color: #660000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#CC0000), to(#990000));
+	background-image: -webkit-linear-gradient(top, #CC0000, #990000);
+	background-image: -moz-linear-gradient(top, #CC0000, #990000);
+	background-image: -ms-linear-gradient(top, #CC0000, #990000);
+	background-image: -o-linear-gradient(top, #CC0000, #990000);
+	background-image: linear-gradient(to bottom, #CC0000, #990000);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CC0000, endColorstr=#990000);
+	-webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#acceso-central input:focus {
+	outline: none !important
+}
+.contenedor {
+	width: 309px;
+	height: 356px;
+	position: absolute;
+	left: 50%;
+	top:30px;
+	margin-left: -154px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#msistema{
+	width: 700px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top:40%;
+	margin-left: -390px;
+	margin-top: -250px
+}
+#msistema-form{
+	position:relative;
+}
+
+#msistema-top{
+	position:relative;
+	display:block;
+	margin:0;
+	padding: 20px 20px;
+	width:100%;
+	height:auto;
+	background-image:url(../images/White80Perc.png);
+	background-repeat:repeat;
+	background-position:left top;
+	-webkit-border-radius: 6px 6px 0 0 ;
+	-moz-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+	border-left:1px solid #FFF;
+	border-right:1px solid #FFF;
+	border-top:1px solid #FFF;
+}
+#msistema-central{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:20px;
+	width:100%;
+	height:auto;
+	background-image:url(../images/White80Perc.png);
+	background-repeat:repeat;
+	background-position:left top;
+	border-left:1px solid #FFF;
+	border-right:1px solid #FFF;
+}
+#msistema-central input[type='button'] {
+	position:relative;
+	display:inline;
+	float:none;
+	top: 0;
+	left: 0;
+	padding: 0 0 6px 20px ;
+	margin: 0 0 4px 0;
+	width: 230px;
+	height: 51px;
+	border:none;
+	font-family:'Open Sans', sans-serif;
+	font-size:11pt;
+	font-weight:600;
+	color: #666;
+	vertical-align:middle;
+	text-align:left;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+
+	border:1px solid #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: transparent !important;
+	/*
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#DBDCDF));
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: -moz-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: -ms-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: -o-linear-gradient(top, #FFFFFF, #DBDCDF);
+	background-image: linear-gradient(to bottom, #FFFFFF, #DBDCDF);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#FFFFFF, endColorstr=#DBDCDF);
+	-moz-box-shadow: 0 1px 2px #666;
+	-webkit-box-shadow: 0 1px 2px #666;
+	box-shadow: 0 1px 2px #666;
+	*/
+	background-image:url(../images/White80Perc.png);
+	background-repeat:repeat;
+	background-position:left top;
+}
+#msistema-central input[type='button']:hover  {
+	color: #FFF;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+	border:1px solid #660000;
+	background-color: #660000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#CC0000), to(#990000));
+	background-image: -webkit-linear-gradient(top, #CC0000, #990000);
+	background-image: -moz-linear-gradient(top, #CC0000, #990000);
+	background-image: -ms-linear-gradient(top, #CC0000, #990000);
+	background-image: -o-linear-gradient(top, #CC0000, #990000);
+	background-image: linear-gradient(to bottom, #CC0000, #990000);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#CC0000, endColorstr=#990000);
+	-webkit-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: inset 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#msistema-central input:focus {
+	outline: none !important
+}
+#msistema-bottom{
+	position:relative;
+	display:block;
+	margin:0;
+	padding:20px;
+	width:100%;
+	height:auto;
+	background-image:url(../images/White80Perc.png);
+	background-repeat:repeat;
+	background-position:left top;
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	border-left:1px solid #FFF;
+	border-right:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+}
+
+#msistema-bottom a.CerrarSesion  {
+	float: right;
+	display:inline-block;
+	color:#FFF;
+	font-weight:600;
+	font-family:'Open Sans', sans-serif;
+	font-size:10pt;
+	text-decoration:none;
+	margin: 0;
+	padding:10px;
+	-khtml-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+	border:1px solid #BE3121;
+	background-color: #DD4B39;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#DD4B39), to(#BE3121));
+	background-image: -webkit-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: -moz-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: -ms-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: -o-linear-gradient(top, #DD4B39, #BE3121);
+	background-image: linear-gradient(to bottom, #DD4B39, #BE3121);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#DD4B39, endColorstr=#BE3121);
+	-moz-box-shadow: 0 1px 2px #C1C1C1;
+	-webkit-box-shadow: 0 1px 2px #C1C1C1;
+	box-shadow: 0 1px 2px #C1C1C1;
+	opacity: 0.60;
+}
+#msistema-bottom a.CerrarSesion:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#DD4B39), to(#9F281C));
+	background-image: -webkit-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: -moz-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: -ms-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: -o-linear-gradient(top, #DD4B39, #9F281C);
+	background-image: linear-gradient(to bottom, #DD4B39, #9F281C);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#DD4B39, endColorstr=#9F281C);
+	opacity: 1;
+}
+
+
+#VentanaSPS {
+	position:absolute;
+	width:100%;
+	height:200%;
+	margin: 0 auto;
+	left: 0;
+	top:0;
+	background-image: url(../images/TranspaBlack72.png);
+	background-repeat: repeat;
+	background-position: left top;
+	z-index:10000;
+}
+#VentanaSPS-contenedor {
+	width: 310px;
+	height: 220px;
+	position: absolute;
+	left: 50%;
+	top:70px;
+	margin-left: -175px;
+	overflow:visible;
+	padding:20px;
+	background-color:#F1F1F1;
+	-khtml-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background-image: url(../images/ARMS.png); background-repeat: no-repeat; background-position: 20px 10px;
+	text-align:center;
+}
+#VentanaSPS-contenedor h3 {
+    color: #575757;
+    font-size: 16pt;
+    text-align: center;
+    font-weight: 600;
+    text-transform: none;
+    position: relative;
+    margin: 25px 0;
+    padding: 0;
+    line-height: 18pt;
+    display: block;
+	margin-top:50px;
+	}
+
+#VentanaSPS-contenedor select
+									{
+									font-family:'Open Sans', sans-serif;
+									font-size:10pt;
+									border: 1px solid #DFDFDF;-khtml-border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius: 4px;
+									background-color: #FBFBFB;
+									display:inline;padding: 9px 20px 12px 6px;background-image:url(../images/ICO_Select.png);background-repeat:no-repeat;background-position:right;
+									-webkit-appearance: none;
+									-moz-appearance: none;
+									}
+#VentanaSPS-contenedor select:hover
+									{background-color: #FFF;border: 1px solid #7A2A9C; color: #333;}
+#VentanaSPS-contenedor input[type='submit']
+									{
+									display:inline-block;
+									border:none;
+									font-family: 'Open Sans', sans-serif;
+									font-size:9pt;
+									font-weight:600 ;
+									text-transform:uppercase;
+									color: #ffffff;
+									background: #7A2A9C;
+									padding: 10px 16px;
+									margin: 1px 0 1px 0;
+									text-decoration: none;									
+									-webkit-border-radius: 3px;
+									-moz-border-radius: 3px;
+									border-radius: 3px;
+									-webkit-box-shadow: 0px 3px 0px #611483;
+									-moz-box-shadow: 0px 3px 0px #611483;
+									box-shadow: 0px 2px 0px #611483;
+									}
+#VentanaSPS-contenedor input[type='submit']:hover
+									{
+									background: #611483;
+									text-decoration: none;
+									}
+

@@ -1,0 +1,1 @@
+{"data":[[{"FATHER":"TenderRestriction","NAME":" ProhibitMixedBaskets","ID":" 1","TYPE":" BOOLEAN","VALUE":" 0"},{"FATHER":"TenderRestriction","NAME":" RestrictedTenderOverrideType","ID":" 2","TYPE":" UINT","VALUE":" 2"},{"FATHER":"TenderRestriction","NAME":" List","ID":" 99","TYPE":" SECTIONS","VALUE":" 0"}]]}

@@ -1,0 +1,241 @@
+#Filtro .CampoFecha {
+	margin-left:2px;
+	margin-right:0;
+	margin-bottom:4px;
+	margin-top:6px;
+}
+#Calendario {
+	background-color:#FFF;
+	padding:20px;
+	overflow:visible;
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 1px 2px #999;
+	-webkit-box-shadow: 0 1px 2px #999;
+	box-shadow: 0 1px 2px #999;
+}
+#Calendario Table {
+	*border-collapse: collapse; /* IE7 and lower */
+	border-spacing: 0;
+}
+#Calendario th{
+	background-color:transparent !Important;
+	color:#E67D70;
+	padding:4px 4px 10px 4px;
+	font-size:14pt;
+	font-weight:600;
+	text-align:center;
+	text-transform:uppercase;
+}
+#Calendario .NombDia{
+	padding:10px 4px;
+	width:50px;
+	min-width:50px;
+	background-color:transparent !Important;
+	color:#E67D70;
+	text-align:center;
+	font-weight:600;
+	border-top-style:solid;
+	border-top-width:2px;
+	border-top-color:#E67D70;
+}
+#Calendario .ElDia{
+	padding:0;
+	width:50px;
+	height:50px;
+	text-align:center;
+	font-size:12pt;
+	font-weight:600;
+	color:#E67D70;
+	vertical-align:middle;
+	background-color:#FCFCFC;
+	-moz-box-shadow: inset 0 -1px 1px rgba(0,0,0,0.3),  inset 0 1px 1px rgba(255,255,255,1); 
+	-webkit-box-shadow: inset 0 -1px 1px rgba(0,0,0,0.3),  inset 0 1px 1px rgba(255,255,255,1); 
+	box-shadow: inset 0 -1px 1px rgba(0,0,0,0.3),  inset 0 1px 1px rgba(255,255,255,1); 
+}
+#Calendario .ElNoDia{
+	padding:0;
+	width:50px;
+	height:50px;
+	border: none;
+	background-color:#FFF;
+	-moz-box-shadow: inset 0 -1px 1px rgba(0,0,0,0.1), /*bottom internal shadow*/ inset 0 1px 1px rgba(0,0,0,0.2); /*top internal highlight*/
+	-webkit-box-shadow: inset 0 -1px 1px rgba(0,0,0,0.1), /*bottom internal shadow*/ inset 0 1px 1px rgba(0,0,0,0.2); /*top internal highlight*/
+	box-shadow: inset 0 -1px 1px rgba(0,0,0,0.1), /*bottom internal shadow*/ inset 0 1px 1px rgba(0,0,0,0.2); /*top internal highlight*/
+	opacity: 0.3;
+}
+#Calendario .ElDiaSel{
+	padding:0;
+	width:50px;
+	height:50px;
+	text-align:center;
+	font-size:12pt;
+	font-weight:600;
+	color:#FFF;
+	vertical-align:middle;
+	background-color:#7A2A9C;
+	border: 1px solid #4D076B;
+}
+#Calendario a{
+	font-size: 18pt;
+	font-weight:300;
+	color:#FFF;
+	text-decoration:none;
+}
+#Calendario a:hover{
+	font-size: 24pt;
+	font-weight:600;
+	color:#FFF;
+	text-decoration:none;
+}
+/*FILTRO TICKET*/
+#FiltroTicket {
+	display:inline;
+	width:auto;
+	float:left;
+	padding:10px 0 0 10px;
+	border: none;
+	background-color:transparent !Important ;
+}
+#FiltroTicket label {
+	display:inline;
+}
+/*FIN FORMATO LISTADOS Y FILTROS*/	/*CUENTA REGISTROS*/
+.registros{
+	color:#FFF;
+	font-weight:normal;
+	font-size:20pt;
+	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5);
+	margin-left:4px;
+	margin-right:10px;
+	margin-bottom:4px;
+	-khtml-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border: 1px solid #333;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	-moz-box-shadow: 0 1px 2px #999;
+	-webkit-box-shadow: 0 1px 2px #999;
+	box-shadow: 0 1px 2px #999;
+	background:url(../images/SpriteSubMenu-Activ.png);
+	background-position: bottom;
+	padding: 6px 14px 6px 14px ;
+}
+/*FIN CUENTA REGISTROS*//*VENTANAS FLOTANTE*/
+#SearchDAT{
+	position:absolute;
+	width:100%;
+	height:800%;
+	margin: 0 auto;
+	left: 0;
+	top:0;
+	background-image: url(../images/TranspaBlack72.png);
+	background-repeat: repeat;
+	background-position: left top;
+	z-index:10000;
+}
+#SearchDAT-contenedor{
+	position:absolute;
+	width:450px;
+	height:auto;
+	left: 50%;
+	top:20px;
+	margin-left: -225px;
+	padding: 50px 20px 20px 20px;
+	background-color:#F1F1F1;
+	-khtml-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	overflow:hidden;
+}
+#SearchJournal{
+	position:fixed;
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+	left: 0;
+	top:0;
+	background-image: url(../images/TranspaBlack72.png);
+	background-repeat: repeat;
+	background-position: left top;
+	z-index:10000;
+}
+#SearchJournal-contenedor{
+	position:absolute;
+	width:600px;
+	height:550px;
+	left: 50%;
+	top:20px;
+	margin-left: -300px;
+	padding: 50px 20px 20px 20px;
+	background-color:#F1F1F1;
+	-khtml-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	overflow:hidden;
+}
+#SearchJournal-contenedor::-webkit-scrollbar {
+	width: 26px;
+}
+#SearchJournal-contenedor::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+#SearchJournal-contenedor::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background: rgba(255,0,0,0.8);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+#SearchJournal-contenedor::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
+}
+.VentanaJournal{
+	display:none;
+	width:auto;
+	height:auto;
+	overflow:visible;
+	border:none;
+	margin: 0;
+	padding:10px;
+}
+
+.VentanaMensajes {
+	display:none;
+	width:auto;
+	min-width:400px;
+	height:auto;
+	border:solid;
+	background-color: #F1F1F1;
+	margin: 0;
+	padding:10px;
+	border: 1px solid #CCC;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 1px #999;
+	-webkit-box-shadow: 0 1px 1px #999;
+	box-shadow: 0 1px 1px #999;
+}
+
+
+.TablaMensajes{
+	width:100%;
+	min-width:400px;
+	height:auto;
+	overflow:visible;
+}
+.TablaMensajes td{
+	padding:6px;
+	vertical-align:middle;
+}
+/*FIN VENTANAS FLOTANTE*/	

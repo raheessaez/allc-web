@@ -1,0 +1,1 @@
+{"data":[[{"FATHER":"ItemMaintenance","NAME":" PrintOnSave","ID":" 1","TYPE":" BOOLEAN","VALUE":" 0"},{"FATHER":"ItemMaintenance","NAME":" PricingInformation","ID":" 2","TYPE":" UINT","VALUE":" 0"},{"FATHER":"ItemMaintenance","NAME":" ExpandedBatchFileLimit","ID":" 3","TYPE":" BOOLEAN","VALUE":" 0"}]]}

@@ -1,0 +1,43 @@
+<Transaction TrainingModeFlag="false" OfflineFlag="false" CancelFlag="false" VoidedFlag="false">
+  <OperatorID>27</OperatorID>
+  <WorkstationID>0102</WorkstationID>
+  <RetailStoreID>100</RetailStoreID>
+  <BusinessDayDate>2016-06-09</BusinessDayDate>
+  <SequenceNumber>6</SequenceNumber>
+  <BeginDateTime>2016-06-09T09:46:59</BeginDateTime>
+  <EndDateTime>2016-06-09T09:47:00</EndDateTime>
+  <TenderControlTransaction>
+    <TenderControlTransactionTenderLineItem>
+      <SequenceNumber>1</SequenceNumber>
+      <TenderTypeCode>11</TenderTypeCode>
+      <exchangeRate>0.0</exchangeRate>
+      <Amount>-7.0</Amount>
+      <foreignCurrencyAmount>0.0</foreignCurrencyAmount>
+      <Count>0.0</Count>
+    </TenderControlTransactionTenderLineItem>
+    <TenderControlTransactionTenderLineItem>
+      <SequenceNumber>2</SequenceNumber>
+      <TenderTypeCode>19</TenderTypeCode>
+      <exchangeRate>0.0</exchangeRate>
+      <Amount>7.0</Amount>
+      <foreignCurrencyAmount>0.0</foreignCurrencyAmount>
+      <Count>0.0</Count>
+    </TenderControlTransactionTenderLineItem>
+    <RetencionData>
+      <RetencionData>
+        <SequenceNumber>1</SequenceNumber>
+        <Indicador>0</Indicador>
+        <Terminal>102</Terminal>
+        <Tiquete>001102000000799</Tiquete>
+        <Fecha>20160609</Fecha>
+        <Voucher>123456789234567</Voucher>
+        <NumeroSRI>1234567890</NumeroSRI>
+        <Monto>7</Monto>
+        <BaseImp>654</BaseImp>
+        <Porcentaje>100</Porcentaje>
+        <IdCliente>1234567890123</IdCliente>
+        <Nombre>Client Name</Nombre>
+      </RetencionData>
+    </RetencionData>
+  </TenderControlTransaction>
+</Transaction>
